@@ -1,0 +1,41 @@
+# V1.4 - Gameplay update 
+    # - ITEMS
+        # - New gameplay feature (items can be used in rounds to gain an advantage)
+        # - New item: Bandage (heals 1 health)
+        # - New item: Medkit (heals 2 health and removes any illness)
+        # - New item: Phone (reveals the type of a random bullet in the mag except the current)
+        # - New item: Magnifying Glass (reveals the current bullet type)
+        # - New item: Money (can be used to bribe the system, eject the current bullet, retain turn).
+        # - New item: Uno Reverse Card (Inverts the bullet type to blank or live)
+        # - Player will receive a random amount of items at the beginning of each round
+        # - Unused items will carry on to the next round
+    # - GAMEMODES
+        # Quickplay: Fast paced rounds with no items and less starting health
+        # Classic: Standard game with items being awarded when a new round starts, more bullets per round and higher starting health
+    # - OTHER
+        # - Fixed minor UI issues
+        # - Added colours to text to brighten up the game
+        # - Added option for player to use item when making decisions
+        # - Psst~ Secret admin gamemode... (who knows what settings you get XD)
+
+# V1.3 - Gameplay and bot logic update
+    # - Bot now makes smarter decisions based on remaining bullets.
+    # - Bot will always shoot itself if all remaining bullets are BLANK.
+    # - Bot will always shoot the player if all remaining bullets are LIVE.
+    # - Bot will adapt its strategy when SPECIAL bullets are the majority.
+    # - Magazines are now guaranteed to have both BLANK and LIVE bullets.
+    # - New Expert Difficulty: Player (3 HP) vs Opponent (8 HP).
+    # - New SPECIAL Bullet: Effects are unknown until fired (heals +2 or deals -2 damage).
+    # - General balancing & improvements.
+
+# V1.2.1 - Bug fixes
+    # - Fixed message not sending celebrating or informing the player if they've won or lost
+    # - Fixed game randomly ending
+    # - Fixed turn number not resetting and continuing into the next game
+
+# V1.2 - Background update
+    # - Player can replay the game without having to restart the program
+    # - Reorganised the code
+    # - Removed unnecessary code
+
+# V1.1 - UI update 
